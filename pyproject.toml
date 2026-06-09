@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "agent-debug-toolkit"
+version = "1.0.0"
+description = "Static analysis CLI for AI agent code. Find bugs before they ship."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Cipher", email = "2638884823@qq.com" }]
+keywords = ["ai-agent", "debug", "static-analysis", "security", "cli"]
+
+[project.scripts]
+adt = "adt.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

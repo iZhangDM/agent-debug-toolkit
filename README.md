@@ -1,5 +1,9 @@
 # Agent Debug Toolkit (ADT)
 
+[![PyPI](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/iZhangDM/agent-debug-toolkit)](https://github.com/iZhangDM/agent-debug-toolkit)
+
 **Find bugs in AI agent code before they find you.**
 
 A production-quality static analysis tool that scans Python agent code for
@@ -26,7 +30,7 @@ dependencies — pure Python standard library.
 
 ```bash
 # Clone and install
-git clone https://github.com/nousresearch/agent-debug-toolkit.git
+git clone https://github.com/iZhangDM/agent-debug-toolkit.git
 cd agent-debug-toolkit
 pip install -e .
 
